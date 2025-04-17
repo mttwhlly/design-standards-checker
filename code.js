@@ -441,7 +441,7 @@ const HTML_TEMPLATE = `
     
     .issue-item {
       padding: 12px;
-      border-radius: 6px;
+      border-radius: 0px;
       background: white;
       margin-bottom: 8px;
       border-left: 4px solid #ccc;
