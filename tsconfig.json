@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["es2016", "dom"],
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
+    "strict": true,
+    "outDir": ".",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true
+  },
+  "include": ["code.ts"],
+  "exclude": ["node_modules"]
+}
