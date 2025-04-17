@@ -5,14 +5,31 @@
   "main": "code.js",
   "capabilities": [],
   "enableProposedApi": false,
-  "documentAccess": "dynamic-page",
   "editorType": [
     "figma"
   ],
+  "documentAccess": "dynamic-page",
   "ui": "ui.html",
   "networkAccess": {
     "allowedDomains": [
       "none"
     ]
-  }
+  },
+  "menu": [
+    {
+      "name": "Check Selected Element",
+      "command": "check-selection"
+    },
+    {
+      "name": "Edit Design Standards",
+      "command": "edit-standards"
+    },
+    {
+      "separator": true
+    },
+    {
+      "name": "Mark as Ready for Dev",
+      "command": "mark-ready"
+    }
+  ]
 }
